@@ -27,10 +27,4 @@ public class PostProcessingController {
 
         return postProcessingService.manualArchivePostProcessing();
     }
-    
-    @GetMapping(path = "/welcome")
-    public String welcome() {
-
-        return "welcome to postprocessing";
-    }
 }
